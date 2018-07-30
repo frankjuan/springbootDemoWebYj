@@ -1,0 +1,24 @@
+server:
+    port: 8089
+    servlet:
+        context-path: /demo
+spring:
+    banner:
+        image:
+            location: static/Xforce.png
+
+#############
+my:
+    number:
+        in:
+            range: ${random.int[1024,65536]}
+    uuid: ${random.uuid}
+
+#############
+acme:
+    enabled: true
+    remote-address: 100.100.100.100
+    security:
+        username: yj
+        password: 123456
+        roles: kk
