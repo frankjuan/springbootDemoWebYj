@@ -28,4 +28,9 @@ public class User {
     public String getProfile() {
         return profile;
     }
+
+    @Override
+    public String toString() {
+        return "abc";
+    }
 }
