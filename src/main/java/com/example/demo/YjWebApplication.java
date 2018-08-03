@@ -16,7 +16,6 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @SpringBootApplication
-@ComponentScan
 public class YjWebApplication {
 
 	public static void main(String[] args) {
